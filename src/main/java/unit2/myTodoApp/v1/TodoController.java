@@ -8,6 +8,7 @@ public class TodoController {
 
     @GetMapping("/")
     public String helloWorld() {
+        System.out.println("[console] To-do Application");
         return "To-do Application !";
     }
 }
